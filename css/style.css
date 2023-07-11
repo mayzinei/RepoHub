@@ -94,8 +94,7 @@
 	margin-left: 4.8rem;
 }
 .hero-textbox {
-	background: rgba(255, 255, 255, 0.822);
-	backdrop-filter: blur(2px);
+	background: #fff;
 	padding: 4.8rem 4.8rem 6.4rem;
 }
 .hero-line {
@@ -161,7 +160,6 @@
 	text-align: center;
 }
 .about-numbers p {
-	text-transform: uppercase;
 	color: #114673;
 }
 /* ***************************************** */

@@ -405,15 +405,42 @@
 		gap: 3.2rem;
 		padding: 0 3.2rem;
 	}
+	.about-img-box {
+		padding: 0;
+	}
+	.team-img-box {
+		gap: 1.6rem;
+	}
+	.person {
+		height: 16rem;
+	}
+	.person p {
+		font-size: 1.2rem;
+	}
+	.person-name {
+		font-size: 1.4rem;
+	}
 	.portfolio-container {
 		padding: 0;
 	}
 	.services {
 		grid-template-columns: 1fr;
-		padding: 0 3.2rem;
+		padding: 0 6.4rem;
+		gap: 6.4rem;
 	}
+	.service-para .service-title {
+		font-size: 1.6rem;
+	}
+
 	.testi-container {
+		flex-direction: column;
 		gap: 0;
+	}
+	.slide-container {
+		width: 40rem;
+	}
+	.testi-title {
+		flex: auto;
 	}
 	.pricing-para {
 		width: 80%;
