@@ -1,0 +1,158 @@
+/*
+--Colors--
+Primary : #228be6
+Tints : #e9f3fd
+Shades : #114673
+Accents : #91c5f3
+Gray : #071c2e
+
+--Font Family--
+default : sans-serif
+Google Fonts : "Montserrat"
+
+--Typography System-- 
+- Fontsize (px)
+10 /12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98
+
+- Font Weight
+default : 400;
+heading-primary : 800;
+
+-Line Heignt
+default : 1;
+
+--Spacing System--
+2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 80/ 96/ 128
+
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	line-height: 1;
+
+	background-image: linear-gradient(
+			rgba(0, 7, 40, 0.562),
+			rgba(0, 0, 125, 0.141)
+		),
+		url(../images/hero.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+/* #myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+} */
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+section {
+	padding: 8rem 3.2rem;
+}
+a,
+ul,
+li {
+	text-decoration: none;
+	list-style: none;
+}
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 5.2rem;
+	font-weight: 800;
+	line-height: 1.5;
+	color: #228be6;
+}
+h2 {
+	font-size: 4.4rem;
+	font-weight: 800;
+	line-height: 1.5;
+	padding: 0 4.8rem;
+	margin-bottom: 3.2rem;
+	text-align: center;
+	color: #114673;
+}
+h3 {
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #228be6;
+	text-align: center;
+	margin-bottom: 1.2rem;
+}
+h4 {
+	font-size: 3.6rem;
+	color: #228be6;
+	text-align: left;
+	font-weight: 400;
+	line-height: 1.5;
+}
+h5 {
+	font-size: 2rem;
+	line-height: 1.5;
+}
+.hero-btn {
+	display: flex;
+	gap: 3.2rem;
+}
+.btn:link,
+.btn:visited {
+	text-align: center;
+	display: inline-block;
+	font-size: 1.8rem;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 0.2rem;
+	background: #114673;
+	color: #fff;
+	box-shadow: 0 0.2rem 1rem rgba(17, 69, 115, 0.263);
+	transition: all 0.3s;
+}
+.btn--message:link,
+.btn--message:visited,
+.btn--portfolio:link,
+.btn--portfolio:visited {
+	color: #114673;
+	background: #fff;
+}
+.btn--message:link,
+.btn--message:visited,
+.btn--project:link,
+.btn--project:visited,
+.btn--price:hover,
+.btn--price:active {
+	background: #228be6;
+	color: #fff;
+}
+.btn--project:hover,
+.btn--project:active,
+.btn--portfolio:hover,
+.btn--portfolio:active {
+	background: #114673;
+	color: #fff;
+}
+.btn--message:link,
+.btn--message:visited {
+	font-size: 1.6rem;
+	padding: 1.2rem 2rem;
+	box-shadow: none;
+	max-width: 16rem;
+}
+.btn--getStart:link,
+.btn--getStart:visited {
+	box-shadow: none;
+}
