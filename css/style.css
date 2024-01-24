@@ -550,7 +550,7 @@
 	border: none;
 }
 
-input:focus {
+.input-box input:focus {
 	font-size: 1.8rem;
 	color: #114673;
 	border: 1px solid #228be6;
