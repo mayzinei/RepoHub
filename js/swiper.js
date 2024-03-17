@@ -3,9 +3,11 @@ var swiper = new Swiper(".slide-container", {
 	spaceBetween: 30,
 	slidesPerGroup: 3,
 	loop: true,
-	centerSlide: true,
-	grapCursor: true,
-	fade: true,
+	centerSlides: true,
+	grabCursor: true,
+	fadeEffect: {
+		crossFade: true,
+	},
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
